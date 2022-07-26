@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 270px;
+  width: 20vw;
   background-color: ${({ theme }) => theme.backgroundBlack2};
   position: fixed;
   left: 0;
   top: 0;
-  padding: 30px;
+  padding: 1vw;
   height: 100%;
   border-right: 1px solid ${({ theme }) => theme.backgroundBlack3};
   display: flex;
@@ -17,21 +17,20 @@ export const Container = styled.div`
 
 export const Logo = styled.div`
   position: absolute;
-  top: 50px;
-  font-size: 30px;
+  top: 12vh;
+  font-size: 3rem;
   text-transform: capitalize;
 
   a {
     color: ${({ theme }) => theme.textBlack1};
     font-weight: 700;
-    padding: 15px 20px;
-    font-size: 30px;
-    letter-spacing: 5px;
+    padding: 3vh 3vw;
+    font-size: 3rem;
     position: relative;
 
     span {
       font-family: "Clicker Script", cursive;
-      font-size: 40px;
+      font-size: 4rem;
     }
 
     &::before {
@@ -100,27 +99,29 @@ export const NavToggler = styled.div`
 `;
 
 export const Nav = styled.ul`
-  margin-top: 50px;
+  margin-top: 10vh;
+  
 
   li {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
     display: block;
 
     a {
-      font-size: 16px;
+      font-size: 1.8rem;
       font-weight: 600;
       display: block;
       align-items: center;
       border-bottom: 1px solid ${({ theme }) => theme.backgroundBlack3};
       color: ${({ theme }) => theme.textBlack1};
-      padding: 5px 15px;
+      padding: 0.5rem 1rem;
 
       &.active {
         color: ${({ theme }) => theme.skin};
       }
 
       i{
-        margin-right: 15px;
+        margin-right: 1rem;
+        font-size: 2.4rem;
       }
     }
   }

@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 ::before,::after{
@@ -18,8 +19,7 @@ const GlobalStyle = createGlobalStyle`
 
 body{
     line-height: 1.5;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: "EB Garamond", sans-serif;
 }
 
 ul{

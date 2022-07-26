@@ -8,13 +8,13 @@ function Home() {
         <Row>
           <Info>
             <Hello>
-              Hola! Mi nombre es <span>Pablo Ortega</span>
+              Hello, my name is <span>Pablo Ortega</span>
             </Hello>
             <Iam>
-              Soy <span>Full Stack Web</span> developer
+              I' m a <span>Full Stack Web</span> developer
             </Iam>
             <p>
-              Esta es una pequeña introdiccióin sobre mi
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem officia quia non quos eaque voluptas cupiditate asperiores illum, ad soluta quod ut quas libero assumenda neque exercitationem perspiciatis consequatur!
             </p>
             <a href="#contact">Hire Me</a>
           </Info>
